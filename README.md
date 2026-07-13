@@ -113,6 +113,7 @@ start-end [pages] rwxp/s pgoff major:minor inode path
 echo 1234 > /proc/memitor
 ```
 После этого модуль начинает перехватывать вызовы brk и mmap для данного процесса.
+
 2. Прочитать файл
 ```bash
 cat /proc/memitor
